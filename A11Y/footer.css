@@ -1,0 +1,59 @@
+.maincolor {
+    background-color: #1B253C;
+}
+
+.logo {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    width: 015%;
+    height: 3%;
+}
+
+/* diven om hele footeren */
+.footer-flexbox-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 2%;
+}
+
+/* hver enkel overskrift og indhold er placeret i hver deres .footer-child */
+.footer-child {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 200px;
+    font-size: 15px;
+}
+
+/* angiver linjeafstand i footeren */
+.line-height {
+    line-height: 0px;
+    color: #EFE9DE;
+}
+
+.link-line-height {
+    line-height: 30px;
+    color: #EFE9DE;
+}
+
+h4 {
+    font-size: 25px;
+    color: #EFE9DE;
+}
+
+.someikon-facebook {
+    height: 5%;
+    width: 3%;
+}
+
+.someikon-instagram {
+    height: 16%;
+    width: 7%;
+}
+
+.someikon-youtube {
+    height: 5%;
+    width: 7%;
+}
